@@ -31,8 +31,8 @@
 		}
 		function GetUserInfo(userID)
 		{
-			/*debug*/		VK.api("users.get", {user_ids: userID, test_mode: 1},
-			/*release*/		//	VK.api("users.get", {user_ids: userID}, 
+			/*debug*/		// VK.api("users.get", {user_ids: userID, test_mode: 1},
+			/*release*/		VK.api("users.get", {user_ids: userID}, 
 			function(data) 
 			{ 				
 				if(data.response)
